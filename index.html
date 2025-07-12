@@ -17,7 +17,7 @@
 
 
 
-    <section>
+    <!-- <section>
 
         <svg class="backgroundcircl" width="1920" height="1075" viewBox="0 0 1920 1075" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path opacity="0.3" d="M0 0H1920.05V1075L0 990.516V0Z" fill="#5A72EA" />
@@ -33,7 +33,6 @@
                 </linearGradient>
             </defs>
         </svg>
-        <!-- starn nav -->
 
 
 
@@ -68,7 +67,6 @@
                             </li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
-                        </li>
 
                     </ul>
                     <form class="d-flex" style="width: max-content; margin-left: 15px;" role="search">
@@ -122,19 +120,102 @@
 
 
 
-    </section>
+    </section> -->
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="asset/images/logo.svg" alt="logo" class="img-fluid" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Product</a>
+              </li>
 
-    <!-- end navber -->
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Solutions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Pricing</a>
+              </li>
+            </ul>
+
+            <button class="btn btn-outline-auth" type="submit">Log In</button>
+            <button class="btn btn-auth" type="submit">Sign Up</button>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row align-items-center min-h-md-800">
+          <div class="col-md-6">
+            <h1 class="text-white">SaaS Delivery Management Software</h1>
+            <p class="text-white">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+              autem vel eum iure reprehenderit qui in ea voluptate
+            </p>
+            <button class="btn btn-auth mt-5" type="submit">Get Started</button>
+            <button
+              class="btn btn-outline-auth mt-5"
+              style="margin-left: 30px"
+              type="submit"
+            >
+              Watch Now
+            </button>
+          </div>
+          <div class="col-md-6 headerImage d-none d-md-block">
+            <img
+              src="asset/images/header.png"
+              alt="hero-image"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
 
 
     <!--  start Companies -->
-    <div class="Companies row">
-        <p>Companies we have helped grow</p>
-        <div class="Companiesimg">
-            <img src="/asset/img/Aven.png" alt="">
-            <img src="/asset/img/Liva.png" alt="">
-            <img src="/asset/img/Treva.png" alt="">
-            <img src="/asset/img/Ideaa.png" alt="">
+    <div class="Companies">
+        <div class="container">
+            <p>Companies we have helped grow</p>
+            <div class="Companiesimg row">
+                <div class="col-md-3 my-4">
+                    <img class="img-fluid" src="/asset/img/Aven.png" alt="">
+                </div>
+                <div class="col-md-3 my-4">
+                    <img class="img-fluid" src="/asset/img/Liva.png" alt="">
+                </div>
+                <div class="col-md-3 my-4">
+                    <img class="img-fluid" src="/asset/img/Treva.png" alt="">
+                </div>
+                <div class="col-md-3 my-4">
+                    <img class="img-fluid" src="/asset/img/Ideaa.png" alt="">
+                </div>
+            </div>
         </div>
     </div>
     <!--end Companies  -->
@@ -145,39 +226,46 @@
     <!-- start process-->
 
     <div class="process">
-
-        <h2>Learn more about process</h2>
-        <p>Quis autem vel eum iure reprehenderit qui in ea voluptate</p>
-
-        <div class="process-card ">
-            <div class="process-box ">
-                <p>01</p>
-                <img src="/asset/img/Mask group (2).png " alt=" ">
-                <div class="minebox">
-                    <h4>Connect</h4>
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione</p>
+        <div class="container">
+            <h2>Learn more about process</h2>
+            <p>Quis autem vel eum iure reprehenderit qui in ea voluptate</p>
+    
+            <div class="process-card row">
+                <div class="col-md-4 my-4">
+                    <div class="process-box h-100">
+                        <p>01</p>
+                        <img src="/asset/img/Mask group (2).png " alt=" ">
+                        <div class="minebox">
+                            <h4>Connect</h4>
+                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="process-box ">
-                <p>02</p>
-
-                <img src="/asset/img/Mask group (1).png " alt=" ">
-
-                <div class="minebox">
-                    <h4>Collect</h4>
-                    <p>who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultan</p>
+                <div class="col-md-4 my-4">
+                    <div class="process-box h-100">
+                        <p>02</p>
+        
+                        <img src="/asset/img/Mask group (1).png " alt=" ">
+        
+                        <div class="minebox">
+                            <h4>Collect</h4>
+                            <p>who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultan</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="process-box ">
-                <p>03</p>
-
-                <img src="/asset/img/Mask group.png " alt=" ">
-
-                <div class="minebox">
-
-                    <h4>Convert</h4>
-                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
-                    </p>
+                <div class="col-md-4 my-4">
+                    <div class="process-box h-100">
+                        <p>03</p>
+        
+                        <img src="/asset/img/Mask group.png " alt=" ">
+        
+                        <div class="minebox">
+        
+                            <h4>Convert</h4>
+                            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -189,110 +277,122 @@
     <img src="/asset/img/Ellipse 21.png" class="circle-left" alt="">
 
 
-
-    <div class=" doublepremium  row">
+<div class="container">
+    <div class=" doublepremium">
         <h2>Start today, with free or premium plan, you choose</h2>
         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
     </div>
 
 
 
-    <div class="doublepremium-card">
-
-        <div class="doublepremium-box ">
-            <button class="btn doublepremium-btn">BASIC PLAN</button>
-            <div class="doublepremium-first">
-                <div class="doublepremium-prog">
-                    <p style=" display: inline;font-weight: bold; padding: 5px; font-size: xx-large;">$0</p><span>per
-                        month</span>
-                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus</p>
-                    <button class="btn btn-outline-primary doublepremium-btn ">Join now</button>
-                    <!-- style="background-color: #5A72EA; color: white;" -->
-
+    <div class="doublepremium-card row">
+        <div class="col-md-6 my-4">
+            <div class="doublepremium-box ">
+                <button class="btn doublepremium-btn">BASIC PLAN</button>
+                <div class="doublepremium-first row">
+                    <div class="col-md-6">
+                        <div class="doublepremium-prog">
+                            <p style=" display: inline;font-weight: bold; padding: 5px; font-size: xx-large;">$0</p><span>per
+                                month</span>
+                            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus</p>
+                            <button class="btn btn-outline-primary doublepremium-btn ">Join now</button>
+                            <!-- style="background-color: #5A72EA; color: white;" -->
+    
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="doublepremium-i">
+    
+    
+    
+                            <div class="doublepremium-i-list ">
+                                <i class="fa-solid fa-circle-check "></i>
+                                <p>Limited access library</p>
+                            </div>
+    
+    
+    
+    
+                            <div class="doublepremium-i-list ">
+                                <i class="fa-solid fa-circle-check "></i>
+                                <p>Hotline support 24/7</p>
+                            </div>
+    
+    
+                            <div class="doublepremium-i-list ">
+                                <i class="fa-solid fa-circle-check "></i>
+                                <p> 100+ HTML UI Elements</p>
+                            </div>
+    
+    
+                            <div class="doublepremium-i-list ">
+                                <i class="fa-solid fa-circle-check "></i>
+                                <p> EaCommerce builder</p>
+                            </div>
+    
+    
+    
+                        </div>
+                    </div>
                 </div>
-                <div class="doublepremium-i">
 
-
-
-                    <div class="doublepremium-i-list ">
-                        <i class="fa-solid fa-circle-check "></i>
-                        <p>Limited access library</p>
-                    </div>
-
-
-
-
-                    <div class="doublepremium-i-list ">
-                        <i class="fa-solid fa-circle-check "></i>
-                        <p>Hotline support 24/7</p>
-                    </div>
-
-
-                    <div class="doublepremium-i-list ">
-                        <i class="fa-solid fa-circle-check "></i>
-                        <p> 100+ HTML UI Elements</p>
-                    </div>
-
-
-                    <div class="doublepremium-i-list ">
-                        <i class="fa-solid fa-circle-check "></i>
-                        <p> EaCommerce builder</p>
-                    </div>
-
-
-
-                </div>
             </div>
-
         </div>
+        <div class="col-md-6 my-4">
+            <div class="doublepremium-box box-scend  ">
 
-        <div class="doublepremium-box box-scend  ">
-
-            <button class="btn " style=" border-color: #eee;color: white; font-weight: 400;font-size: 16px;padding-inline: 20px;  ">PREMIUM
-                PLAN</button>
-            <div class="doublepremium-first">
-                <div class="doublepremium-prog">
-                    <p style="display: inline; font-weight: bold; padding: 5px; font-size: xx-large; ">$99</p><span>per
-                        month</span>
-                    <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment</p>
-                    <button class="btn " style="background-color: white; color: #5A72EA;padding-inline: 32px; padding-block: 10px;">Join
-                        now</button>
-                </div>
-                <div class="doublepremium-i">
-
-
-
-                    <div class="doublepremium-i-list ">
-                        <i class="fa-solid fa-circle-check "></i>
-                        <p>Limited access library</p>
+                <button class="btn " style=" border-color: #eee;color: white; font-weight: 400;font-size: 16px;padding-inline: 20px;  ">PREMIUM
+                    PLAN</button>
+                <div class="doublepremium-first row">
+                    <div class="col-md-6">
+                        <div class="doublepremium-prog">
+                            <p style="display: inline; font-weight: bold; padding: 5px; font-size: xx-large; ">$99</p><span>per
+                                month</span>
+                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment</p>
+                            <button class="btn " style="background-color: white; color: #5A72EA;padding-inline: 32px; padding-block: 10px;">Join
+                                now</button>
+                        </div>
                     </div>
-
-
-
-
-                    <div class="doublepremium-i-list ">
-                        <i class="fa-solid fa-circle-check "></i>
-                        <p>Hotline support 24/7</p>
+                    <div class="col-md-6">
+                        <div class="doublepremium-i">
+    
+    
+    
+                            <div class="doublepremium-i-list ">
+                                <i class="fa-solid fa-circle-check "></i>
+                                <p>Limited access library</p>
+                            </div>
+    
+    
+    
+    
+                            <div class="doublepremium-i-list ">
+                                <i class="fa-solid fa-circle-check "></i>
+                                <p>Hotline support 24/7</p>
+                            </div>
+    
+    
+                            <div class="doublepremium-i-list ">
+                                <i class="fa-solid fa-circle-check "></i>
+                                <p> 100+ HTML UI Elements</p>
+                            </div>
+    
+    
+                            <div class="doublepremium-i-list ">
+                                <i class="fa-solid fa-circle-check "></i>
+                                <p> EaCommerce builder</p>
+                            </div>
+    
+    
+    
+                        </div>
                     </div>
-
-
-                    <div class="doublepremium-i-list ">
-                        <i class="fa-solid fa-circle-check "></i>
-                        <p> 100+ HTML UI Elements</p>
-                    </div>
-
-
-                    <div class="doublepremium-i-list ">
-                        <i class="fa-solid fa-circle-check "></i>
-                        <p> EaCommerce builder</p>
-                    </div>
-
-
-
                 </div>
             </div>
         </div>
     </div>
+
+</div>
 
 
     <!-- end double card -->
@@ -300,44 +400,55 @@
     <!-- startFeatures -->
 
     <div class="Features">
-        <h2>Features for you</h2>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-
-        <div class="Features-card">
-            <div class="Features-box">
-                <img src="/asset/img/img/Group 1354.png" alt="">
-                <div>
-                    <h4>Fully Secured</h4>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+        <div class="container">
+            <h2>Features for you</h2>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+    
+            <div class="Features-card row">
+                <div class="col-md-3">
+                    <div class="Features-box">
+                        <img src="/asset/img/img/Group 1354.png" alt="">
+                        <div>
+                            <h4>Fully Secured</h4>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="Features-box">
-                <img src="/asset/img/img/Group 1353.png" alt="">
-                <div>
-                    <h4>Management</h4>
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit</p>
+                <div class="col-md-3">
+                    <div class="Features-box">
+                        <img src="/asset/img/img/Group 1353.png" alt="">
+                        <div>
+                            <h4>Management</h4>
+                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="Features-box">
-                <img src="/asset/img/img/Group 1355.png" alt="">
-                <div>
-                    <h4>Strong Data</h4>
-                    <p>Ut enim ad minima veniam, quis nostrum rcitationem ullam corporis</p>
+                <div class="col-md-3">
+                    <div class="Features-box">
+                        <img src="/asset/img/img/Group 1355.png" alt="">
+                        <div>
+                            <h4>Strong Data</h4>
+                            <p>Ut enim ad minima veniam, quis nostrum rcitationem ullam corporis</p>
+                        </div>
+        
+                    </div>
                 </div>
-
-            </div>
-            <div class="Features-box">
-                <img src="/asset/img/img/Group 1356.png" alt="">
-                <div>
-                    <h4>Analysis</h4>
-                    <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam</p>
+                <div class="col-md-3">
+                    <div class="Features-box">
+                        <img src="/asset/img/img/Group 1356.png" alt="">
+                        <div>
+                            <h4>Analysis</h4>
+                            <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam</p>
+                        </div>
+        
+                    </div>
                 </div>
-
+    
+    
             </div>
-
+            <button class="btn btn-primary btn-lg Features-btn ">Explore Features</button>
 
         </div>
-        <button class="btn btn-primary btn-lg Features-btn ">Explore Features</button>
 
     </div>
     <!-- end Features -->
@@ -353,7 +464,7 @@
             <h2>Check what our clients are saying</h2>
             <p>Cum soluta nobis est eligendi optio cumque</p>
 
-            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" style="margin: 82px;">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
 
                 <!-- Indicators -->
                 <div class="carousel-indicators" style="margin-bottom: -24px;">
@@ -380,16 +491,7 @@
                     </div>
                 </div>
 
-                <!-- Controls -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
 
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
 
 
@@ -402,10 +504,14 @@
                 <h2>Sign up and get started
                 </h2>
                 <p>Free trail 14 days of change and without obligation</p>
-                <div class="container-fluid">
-                    <form class="d-flex started-box " role="search">
-                        <input style="" class="form-control me-2" type="search" placeholder="Enter your email here" aria-label="Search" />
-                        <button class="btn started-btn" type="submit">Register for free</button>
+                <div class="container">
+                    <form class="row started-box align-items-center " role="search">
+                        <div class="col-md-9">
+                            <input style="" class="form-control me-2" type="search" placeholder="Enter your email here" aria-label="Search" />
+                        </div>
+                        <div class="col-md-3">
+                            <button class="btn started-btn" type="submit">Register for free</button>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -476,38 +582,53 @@
 
     <!-- start footr -->
     <div class="footr">
-        <div class="footr-box">
-            <img src="/asset/img/Logo.png" alt="">
-            <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested</p>
-            <img src="/asset/img/img/Frame 1360.png" style="width: auto; margin-top: 5%;" alt="">
-        </div>
-        <div class="footr-card">
-            <h4>Company</h4>
-            <p>About</p>
-            <p>Career</p>
-            <p>Pricing</p>
-            <p>Service</p>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="footr-box">
+                        <img src="/asset/img/Logo.png" alt="">
+                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested</p>
+                        <img src="/asset/img/img/Frame 1360.png" style="width: auto; margin-top: 5%;" alt="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="footr-card">
+                        <h4>Company</h4>
+                        <p>About</p>
+                        <p>Career</p>
+                        <p>Pricing</p>
+                        <p>Service</p>
+            
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="footr-card">
+                        <h4>Product</h4>
+                        <p>Invoice</p>
+                        <p>Contract</p>
+                        <p>Accounting</p>
+                        <p>Proposal</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="footr-card">
+                        <h4>Resource</h4>
+                        <p>API Docs</p>
+                        <p>Tutorial Video</p>
+                        <p>How to Create</p>
+            
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="footr-card">
+                        <h4>Contact</h4>
+                        <p>youremail@mern.com</p>
+                        <p>+012-345-678-90</p>
+                        <p>St. London Maeren 01928</p>
+                    </div>
+                </div>
+            </div>
 
-        </div>
-        <div class="footr-card">
-            <h4>Product</h4>
-            <p>Invoice</p>
-            <p>Contract</p>
-            <p>Accounting</p>
-            <p>Proposal</p>
-        </div>
-        <div class="footr-card">
-            <h4>Resource</h4>
-            <p>API Docs</p>
-            <p>Tutorial Video</p>
-            <p>How to Create</p>
-
-        </div>
-        <div class="footr-card">
-            <h4>Contact</h4>
-            <p>youremail@mern.com</p>
-            <p>+012-345-678-90</p>
-            <p>St. London Maeren 01928</p>
         </div>
 
     </div>
