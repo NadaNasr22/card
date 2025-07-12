@@ -1,0 +1,39 @@
+
+    
+    <section class="bar">
+            <!-- SVG مباشرة هنا -->
+            <svg  viewBox="0 0 1920 1063" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path opacity="0.3" d="M0 0H1926.53V1063L0 979.459V0Z" fill="#5A72EA"/>
+    <path d="M0 0H1926.53V946L0 1063V0Z" fill="url(#paint0_linear_11_464)"/>
+    <ellipse class="my-circle"  cx="990" cy="400" rx="100" ry="100" fill="white"/>
+    <defs>
+      <linearGradient id="paint0_linear_11_464" x1="963.267" y1="0" x2="183.355" y2="1077.36" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#5A72EA"/>
+        <stop offset="1" stop-color="#8468B1"/>
+      </linearGradient>
+    </defs>
+  </svg>
+        </section>
+
+
+
+
+        <svg width="1920" height="1075" viewBox="0 0 1920 1075" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.3" d="M0 0H1920.05V1075L0 990.516V0Z" fill="#5A72EA"/>
+<path d="M0 0H1920.05V956.679L0 1075V0Z" fill="url(#paint0_linear_11_464)"/>
+<ellipse cx="987.134" cy="306.385" rx="152.895" ry="150.844" fill="white"/>
+<g opacity="0.5" filter="url(#filter0_f_11_464)">
+<rect x="932.701" y="285.622" width="1072.3" height="670.808" fill="#5A72EA"/>
+</g>
+<defs>
+<filter id="filter0_f_11_464" x="832.701" y="185.622" width="1272.3" height="870.808" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_11_464"/>
+</filter>
+<linearGradient id="paint0_linear_11_464" x1="960.024" y1="0" x2="167.781" y2="1078.53" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5A72EA"/>
+<stop offset="1" stop-color="#8468B1"/>
+</linearGradient>
+</defs>
+</svg>
