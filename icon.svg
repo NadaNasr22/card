@@ -1,0 +1,14 @@
+       <svg class="backgroundcircl" width="1920" height="1075" viewBox="0 0 1920 1075" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path opacity="0.3" d="M0 0H1920.05V1075L0 990.516V0Z" fill="#5A72EA" />
+            <path d="M0 0H1920.05V956.679L0 1075V0Z" fill="url(#paint0_linear_11_464)" />
+            <ellipse cx="1080" cy="350" rx="152.895" ry="150.844" fill="white" />
+
+            <defs>
+
+                <linearGradient id="paint0_linear_11_464" x1="960.024" y1="0" x2="167.781" y2="1078.53"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#5A72EA" />
+                    <stop offset="1" stop-color="#8468B1" />
+                </linearGradient>
+            </defs>
+        </svg>

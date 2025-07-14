@@ -6,17 +6,22 @@
     font-family: 'Poppins', sans-serif;
 }
 
-svg {
-    width: 100%;
-    height: auto;
-    display: block;
+body {}
+
+header {
+    background-image: url('/icon.svg');
+    background-size: cover;
+    position: relative;
+    background-position: bottom;
+    overflow-x: hidden;
 }
 
-.navbar-head {
-    position: absolute;
-    padding: 25px;
-    top: 0;
+.navbar-collapse {
+    flex-grow: 0;
+    padding-block: 2%;
 }
+
+.container-box {}
 
 .container-fluid img {
     object-fit: scale-down;
@@ -66,17 +71,20 @@ svg {
     position: absolute;
     top: 25%;
     padding: 25px;
-    overflow-x: hidden;
 }
 
-.nav-box1 h1 {
+.box1 h1 {
     font-weight: 600;
     font-size: 72px;
     color: white;
     margin-bottom: 50px;
 }
 
-.nav-box1 p {
+.container-box {
+    margin-top: 5%;
+}
+
+.box1 p {
     color: white;
     font-weight: 400;
     font-size: 18px;
@@ -93,8 +101,10 @@ svg {
 .nav-btn1 {
     width: auto;
     color: #5A72EA;
-    padding-inline: 20px;
+    padding-inline: 40px;
     padding-block: 8px;
+    border-radius: 15px;
+    background-color: white;
 }
 
 .nav-btn2 {
@@ -103,6 +113,15 @@ svg {
     border-color: #FFFFFF;
     padding-inline: 20px;
     padding-block: 8px;
+    border-radius: 15px;
+}
+
+.content-style {
+    margin-top: 7%;
+    display: flex;
+    width: auto;
+    margin-bottom: 6%;
+    margin-left: -9%;
 }
 
 .nav-i {
@@ -123,22 +142,17 @@ svg {
 }
 
 .nav-box2 img {
-    margin-left: 5%;
-    width: 100%;
-    margin-top: -5%;
     object-fit: scale-down;
+    max-width: 600px;
+    margin-left: 11%;
 }
 
 .Companies {
     margin-top: 10%;
-    margin-inline: 10%;
 }
 
 .Companiesimg {
-    display: flex;
-    height: auto;
-    gap: 10%;
-    object-fit: fill;
+    text-align: center;
 }
 
 .Companies p {
@@ -151,7 +165,6 @@ svg {
 
 .process {
     text-align: center;
-    padding: 10px;
     margin-top: 10%;
 }
 
@@ -165,30 +178,20 @@ svg {
     font-size: 18px;
 }
 
-.process-card {
-    display: flex;
-    margin: 50px;
-    gap: 50px;
-}
-
 .process-box {
-    width: 30%;
-    margin: 20px;
-}
-
-.process-card .process-box {
     border-radius: 20px;
     margin: 20px;
     padding: 25px;
     margin-inline: 3%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    flex: 1;
 }
 
 .minebox h4 {
-    margin-block: 10%;
+    margin-block: 15px;
 }
 
-.process-card .process-box:hover {
+.process-box:hover {
     box-shadow: 0px 10px 5px #8468B1;
 }
 
@@ -198,7 +201,6 @@ svg {
 }
 
 .doublepremium {
-    margin-top: -7%;
     margin-bottom: 5%;
 }
 
@@ -208,7 +210,11 @@ svg {
     max-width: 700px;
     margin: auto;
     margin-bottom: 37px;
-    margin-top: -34px;
+}
+
+.cdoublepremium-card {
+    padding: 5%;
+    gap: 4%;
 }
 
 .doublepremium p {
@@ -217,32 +223,20 @@ svg {
     text-align: center;
 }
 
-.doublepremium-card {
-    display: flex;
-    gap: 18px;
-    justify-content: center;
-}
-
 .doublepremium-box {
     border: 1px solid #eee;
     border-radius: 15px;
-    padding: 20px;
+    padding: 25px;
+    flex: 1;
 }
 
-.doublepremium-btn {
-    border-color: #eee;
+.btnBASIC {
+    background-color: white;
     color: #5A72EA;
+    border-color: #5A72EA;
     font-weight: 400;
     font-size: 16px;
-}
-
-.doublepremium-first {
-    display: flex;
-}
-
-.doublepremium-prog {
-    width: 350px;
-    word-wrap: break-word;
+    border-radius: 15px;
 }
 
 .doublepremium-prog p {
@@ -253,9 +247,6 @@ svg {
 
 .doublepremium {
     text-align: center;
-    padding: 10px;
-    flex-wrap: wrap;
-    display: flex;
 }
 
 .doublepremium p {
@@ -266,12 +257,9 @@ svg {
 .doublepremium-btn {
     padding-inline: 20px;
     padding-block: 8px;
-    border-color: #5A72EA;
-    color: #5A72EA;
-}
-
-.doublepremium-i {
-    padding-block: 20px;
+    background-color: #5A72EA;
+    color: white;
+    border-radius: 10px;
 }
 
 .doublepremium-i-list {
@@ -279,20 +267,32 @@ svg {
     gap: 5px;
 }
 
+.btnjoin {
+    background-color: white;
+    color: #5A72EA;
+    padding-inline: 32px;
+    padding-block: 10px;
+    border-radius: 10px;
+}
+
+.btnPREMIUM {
+    border-color: #eee;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    padding-inline: 20px;
+    border-radius: 10px;
+}
+
 .box-scend {
     background-image: url('/asset/img/Rectangle\ 568.png');
-    background-repeat: no-repeat;
     color: white;
     background-position: center;
-    padding: 3%;
+    padding: 2%;
 }
 
 .Features {
     margin: 20px;
-    margin-top: 11%;
-}
-
-.Features {
     margin-top: 11%;
 }
 
@@ -309,9 +309,7 @@ h2 {
     text-align: center;
 }
 
-.Features-card {
-    display: flex;
-}
+.Features-card {}
 
 .Features-box {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -319,6 +317,7 @@ h2 {
     text-align: center;
     margin: 10px;
     border-radius: 15px;
+    flex: 1;
 }
 
 .Features-box:hover {
@@ -326,9 +325,8 @@ h2 {
 }
 
 .Features-box img {
-    width: 55%;
+    object-fit: scale-down;
     text-align: center;
-    margin: auto;
     margin-bottom: 10px;
 }
 
@@ -343,7 +341,7 @@ h2 {
     font-size: 18px;
 }
 
-.Features-btn {
+.btnExplore {
     font-size: 20px;
     font-weight: 500;
     margin-left: 40%;
@@ -351,6 +349,7 @@ h2 {
     margin-top: 41px;
     padding-inline: 17px;
     padding-block: 10px;
+    border-radius: 15px;
 }
 
 .circel-right {
@@ -402,9 +401,6 @@ h2 {
 }
 
 .carousel-item p {
-    width: 50%;
-    text-align: center;
-    margin: auto;
     background-color: white;
     border-radius: 15px;
     padding: 19px;
@@ -435,13 +431,9 @@ h2 {
     background-image: url('/asset/img/img/Group\ 1358.png');
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 30%;
-    width: 80%;
     text-align: center;
-    margin: 20px auto;
     padding: 50px;
-    margin-bottom: 10px;
-    border-radius: 15px;
+    padding-bottom: 8%;
 }
 
 .started h2 {
@@ -449,7 +441,7 @@ h2 {
     color: white;
     font-weight: 600;
     font-size: 48px;
-    padding: 0;
+    padding-block: 5px;
 }
 
 .started p {
@@ -460,15 +452,15 @@ h2 {
     color: white;
 }
 
-.started-btn {
-    width: 30%;
-    height: auto;
+.btnRegister {
     background-color: white;
     border-color: #eee;
     color: #5A72EA;
+    width: 27%;
+    border-radius: 15px;
 }
 
-.started-btn:hover {
+.btnRegister:hover {
     background-color: white;
     border-color: #eee;
     color: #5A72EA;
@@ -480,14 +472,9 @@ h2 {
     border-radius: 15px;
 }
 
-.started-box {
-    width: 70%;
-}
-
 .question {
     text-align: center;
-    margin-top: 10%;
-    margin-bottom: 20%;
+    margin-top: 7%;
 }
 
 .question h1 {
@@ -504,7 +491,6 @@ h2 {
 .accordion {
     border: 1px solid white;
     margin: 30px auto;
-    width: 60%;
     border-radius: 15px;
     background-color: white;
 }
@@ -523,34 +509,17 @@ h2 {
     position: absolute;
     overflow: visible;
     z-index: 1;
-    margin-top: -31%;
-}
-
-.footr {
-    display: flex;
-}
-
-.footr-box {
-    gap: 7%;
-    margin: 5%
+    margin-top: -9%;
 }
 
 .footr-box img {
-    width: 25%;
     object-fit: fill;
-    margin-top: -17%;
 }
 
 .footr-box p {
     font-weight: 400;
     font-size: 18px;
-    max-width: 350px;
-    margin-top: 0%;
     margin-bottom: 9%
-}
-
-.footr-card {
-    margin: 3%;
 }
 
 .footr-card h4 {
@@ -566,169 +535,59 @@ h2 {
 }
 
 .last {
-    display: flex;
-    justify-content: space-between;
     background-color: #5A72EA;
     color: white;
     padding: 34px;
     text-align: center;
+    margin-top: 2%;
 }
 
 .last-box {
-    display: flex;
-    justify-content: space-between;
     gap: 30px;
 }
 
-
-/*
-nav {
-    position: relative;
-}
-
-
-/*
-.navbar-nav {
-    margin-bottom: 5%;
-    position: absolute;
-    padding: 5px;
-    top: 0;
-}
-
-
-/*
-.navbar {
-    top: 0;
-}
-
-
-
-svg {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-@media (min-width: 992px) {
-    .navbar-expand-lg .navbar-collapse {}
-}
-
-.d-flex {
-    gap: 10px;
-}
-
-.log {
-    padding-inline: 30px;
-    padding-block: 4px;
-    border: 2px aliceblue;
-    color: white;
-    border-radius: 5px;
-    border-color: #FFFFFF;
-}
-
-.log:hover {
-    border: #5A72EA;
-    background-color: white;
-    color: #5A72EA;
-}
-
-.sign {
-    padding-inline: 17px;
-    padding-block: 4px;
-    border: #5A72EA;
-    background-color: white;
-    color: #5A72EA;
-}
-
-.sign:hover {
-    background-color: #5A72EA;
+.last-foot {
+    display: flex;
+    justify-content: end;
+    gap: 8%;
 }
 
 @media (max-width: 768px) {
-    .navbar-toggler {
-        display: flex;
-        margin: 5px;
-    }
-    .box2 {
+    .nav-box2 {
         display: none;
     }
-    .box1 {
-        width: 75%;
-        flex: 0 0 auto;
+    .box1 h1 {
+        font-weight: 300px;
+        font-size: 40px;
     }
-    .prag-box h1 {
-        font-size: small;
+    .box1 p {
+        font-weight: 200px;
+        font-size: 15px;
     }
-    .prag-box p {
-        font-size: small;
+    .nav-btn1 {
+        margin-bottom: 5px;
+        padding-block: 13px;
     }
-    svg {
-        height: auto;
+    .navbar-head {
+        padding: 3%;
     }
-    .container-fluid {
-        flex-wrap: nowrap;
+    .doublepremium h2 {
+        margin-top: 10%;
     }
-}
-
-.allimg {
-    display: flex;
-    width: 30ox;
-    height: auto;
-    gap: 10%;
-}
-
-.all-photo {
-    margin-top: 10%;
-    margin-inline: 10%;
-}
-
-.all-photo p {
-    font-weight: 500;
-    text-transform: capitalize;
-    font-size: 24px;
-    margin-bottom: 5%;
-    text-align: center;
-}
-
-.cardthree img {
-    width: 30%;
-    margin: 20px;
-}
-
-.allvcard {
-    text-align: center;
-    padding: 10px;
-    margin-top: 10%;
-}
-
-.cardthree .cardcard {
-    border-radius: 20px;
-    margin: 20px;
-    padding: 25px;
-    margin-inline: 3%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-.cardthree .cardcard:hover {
-    box-shadow: 0px 10px 5px #8468B1;
-}
-
-.accordion-button::after {
-    display: none;
-}
-
-.accordion-button::before {
-    content: "-";
-    font-size: 20px;
-    margin-right: 10px;
-    color: white;
-    background-color: #5A72EA;
-    border-radius: 50%;
-    width: 24px;
-    height: 25px;
-    text-align: center;
-}
-
-.accordion-button:not(.collapsed) {
-    background-color: white;
+    .box-scend {
+        margin-top: 5%;
+    }
+    .doublepremium-btn {
+        margin-bottom: 3%;
+    }
+    .btnjoin {
+        margin-bottom: 3%;
+    }
+    .btnRegister {
+        width: 50%;
+    }
+    .started h2 {
+        font-weight: 300;
+        font-size: 28px;
+    }
 }
