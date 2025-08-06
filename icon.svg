@@ -1,7 +1,7 @@
        <svg class="backgroundcircl" width="1920" height="1075" viewBox="0 0 1920 1075" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path opacity="0.3" d="M0 0H1920.05V1075L0 990.516V0Z" fill="#5A72EA" />
             <path d="M0 0H1920.05V956.679L0 1075V0Z" fill="url(#paint0_linear_11_464)" />
-            <ellipse cx="1080" cy="350" rx="152.895" ry="150.844" fill="white" />
+            <ellipse  class="hide-circle" cx="1080" cy="350" rx="152.895" ry="150.844" fill="white" />
 
             <defs>
 
@@ -12,3 +12,4 @@
                 </linearGradient>
             </defs>
         </svg>
+        

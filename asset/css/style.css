@@ -141,6 +141,8 @@ header {
     color: #5A72EA;
 }
 
+.nav-box {}
+
 .nav-box2 img {
     object-fit: scale-down;
     max-width: 600px;
@@ -553,6 +555,20 @@ h2 {
 }
 
 @media (max-width: 768px) {
+    header {
+        position: relative;
+    }
+    .backgroundcircl {
+        display: none !important;
+    }
+    .hide-circle {
+        display: none !important;
+    }
+    .nav-box h1,
+    p {
+        position: relative;
+        z-index: 10;
+    }
     .nav-box2 {
         display: none;
     }
